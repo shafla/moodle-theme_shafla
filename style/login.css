@@ -1,0 +1,544 @@
+/* -- login page */
+
+body#page-login-index {
+    padding-top: 60px;
+    background-attachment: fixed;
+}
+
+.loginbox {
+	width: 440px;
+	margin: 0 auto;
+	margin-top: 60px;
+    margin-bottom: 60px;
+	background: rgba(255,255,255,0.5);
+    box-sizing: border-box;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.loginbox.twocolumns {
+    margin: 0 auto;
+    width: 900px;
+	margin-top: 60px;
+    margin-bottom: 60px;
+	background: rgba(255,255,255,0.5);
+    box-sizing: border-box;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.loginbox .loginpanel {
+    width: 100%;
+    float: left;
+    border-right: none !important; 
+}
+
+.loginbox.twocolumns .loginpanel {
+    width: 100%;
+    float: left;
+    border-right: 1px solid #EEE !important; 
+}
+
+.loginbox.twocolumns .loginpanel,
+.loginbox.twocolumns .signuppanel {
+    width: 50%;
+    margin: 0 auto;
+    float: left;
+    padding: 40px 0px;
+}
+
+.loginpanel h2 {
+    font-size: 0;
+    line-height: 0;
+    width: 340px;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.loginpanel h2:before {
+    content: "Sign in";
+    color: #333;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: normal;
+    display: block;
+    text-align: left;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.signuppanel h2 {
+    line-height: normal;
+    width: 280px;
+    margin: 0 auto;
+    display: none;
+}
+
+.shafla-login-steps p {
+    display: block;
+    text-align: left;
+    color: #333;
+    font-size: 36px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.shafla-login-steps ul {
+    font-size: 16px;
+    line-height: normal;
+    letter-spacing: 1px;
+    color: #333;
+    list-style: none;
+}
+
+.shafla-login-steps li {}
+
+.shafla-login-steps li i {
+	font-size: 16px;
+    margin-right: 0px;
+}
+
+a.login-i-btn:hover {
+    background-color: #63656A;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.signupform input {
+    margin: 0;
+    width: 200px;
+    height: 40px;
+    border-radius: 0px;
+    border: none;
+    box-shadow: none;
+    color: #ffffff;
+    background: none;
+	background-color: #3D4D61;
+    text-shadow: none;
+    padding: 10px 0px;
+    line-height: normal;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    display: inline-block;
+    position: relative;
+    float: left;
+    font-size: 12px;
+    text-transform: uppercase;
+    transition: none;
+    transition: background-color .5s ease !important;
+}
+
+.loginbox .signupform {
+    text-align: left;
+}
+
+.signupform input:hover {
+    background-color: #63656A;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.loginbox .subcontent,
+.loginbox .subcontent.loginsub,
+.loginbox .subcontent.guestsub {
+    width: 340px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.subcontent.loginsub .loginform {
+    margin-top: 0px;
+}
+
+.subcontent.loginsub .loginform .form-label {
+    display: none;
+}
+
+.subcontent.loginsub .loginform .form-input {
+    float: none;
+    width: 96%;
+}
+
+.subcontent.loginsub .loginform .form-input input {
+    width: 100%;
+    min-height: 30px;
+    border: none;
+    box-shadow: none;
+    border-radius: 0px;
+    background: #ffffff;
+    padding: 8px 0px;
+    line-height: normal;
+    color: #000000;
+    transition: none;
+    text-align: left;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.subcontent.loginsub form#login {
+    text-align: right;
+}
+
+.subcontent.loginsub #loginbtn {
+    margin: 0;
+    width: 200px;
+    height: 40px;
+    border-radius: 0px;
+    border: none;
+    box-shadow: none;
+    color: #ffffff;
+    background: none;
+	background-color: #3D4D61;
+    text-shadow: none;
+    padding: 10px 0px;
+    line-height: normal;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    display: inline-block;
+    position: relative;
+    float: left;
+    font-size: 12px;
+    text-transform: uppercase;
+    transition: background-color .5s ease;
+}
+
+.subcontent.loginsub #loginbtn:hover {
+    background-color: #63656A;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.subcontent.loginsub .rememberpass {
+    color: #333;
+    margin-top: 0px;
+    text-align: left;
+}
+
+.subcontent.loginsub .rememberpass input {
+    margin-top: -4px;
+    margin-right: 4px;
+}
+
+.subcontent.loginsub .rememberpass label {
+    padding: 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+}
+
+.subcontent.loginsub .forgetpass {
+    display: inline-block;
+    text-align: left;
+    margin-top: 20px;
+    color: #333;
+    clear: both;
+    width: 100%;
+}
+
+.subcontent.loginsub .forgetpass a {
+    display: block;
+    font-weight: 400;
+    color: #333;
+}
+
+.subcontent.loginsub .desc {
+    display: inline-block;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-weight: 400;
+    color: #333;
+    clear: both;
+    width: 100%;
+}
+
+.subcontent.loginsub .desc img.iconhelp {
+	background: #fff;
+    border-radius: 100%;
+    padding: 0;
+    margin-left: 5px;
+}
+
+.subcontent.guestsub .desc {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 0;
+    text-align: left;
+    border-top: 0;
+    font-weight: 400;
+    color: #333;
+    clear: both;
+}
+
+.subcontent.guestsub .guestform {
+    text-align: right;
+}
+
+.subcontent.guestsub .guestform input[type="submit"] {
+    margin: 0;
+    width: 200px;
+    height: 40px;
+    border-radius: 0px;
+    border: none;
+    box-shadow: none;
+    color: #ffffff;
+    background: none;
+    background-color: #3D4D61;
+    text-shadow: none;
+    padding: 10px 0px;
+    line-height: normal;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    display: inline-block;
+    position: relative;
+    float: left;
+    font-size: 12px;
+    text-transform: uppercase;
+    transition: background-color .5s ease;
+}
+
+.subcontent.guestsub .guestform input[type="submit"]:hover {
+    background-color: #63656A;
+    text-decoration: none;
+    color: #FFF;
+}
+
+:placeholder-shown {
+    font-weight: 300;
+    color: #222;
+    text-align: left;
+    font-size: 16px;
+    font-style: normal;
+    text-shadow: none;
+}
+
+::-webkit-input-placeholder { /* Safari, Chrome and Opera */
+    font-weight: 300;
+    color: #222;
+    text-align: left;
+    font-size: 16px;
+    font-style: normal;
+    text-shadow: none;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    font-weight: 300;
+    color: #222;
+    text-align: left;
+    font-size: 16px;
+    font-style: normal;
+    text-shadow: none;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+    font-weight: 300;
+    color: #222;
+    text-align: left;
+    font-size: 16px;
+    font-style: normal;
+    text-shadow: none;
+}
+
+:-ms-input-placeholder { /* IE 10+ */
+    font-weight: 300;
+    color: #222;
+    text-align: left;
+    font-size: 16px;
+    font-style: normal;
+    text-shadow: none;
+}
+
+::-ms-input-placeholder { /* Edge */
+    font-weight: 300;
+    color: #222;
+    text-align: left;
+    font-size: 16px;
+    font-style: normal;
+    text-shadow: none;
+}
+
+:placeholder-shown { /* Standard one last! */
+    font-weight: 300;
+    color: #222;
+    text-align: left;
+    font-size: 16px;
+    font-style: normal;
+    text-shadow: none;
+}
+
+:placeholder-shown {
+    font-weight: 300;
+    color: #222;
+    text-align: left;
+    font-size: 16px;
+    font-style: normal;
+    text-shadow: none;
+}
+
+::-webkit-input-placeholder { /* Safari, Chrome and Opera */
+    font-weight: 300;
+    color: #222;
+    text-align: left;
+    font-size: 16px;
+    font-style: normal;
+    text-shadow: none;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    font-weight: 300;
+    color: #222;
+    text-align: left;
+    font-size: 16px;
+    font-style: normal;
+    text-shadow: none;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+    font-weight: 300;
+    color: #222;
+    text-align: left;
+    font-size: 16px;
+    font-style: normal;
+    text-shadow: none;
+}
+
+:-ms-input-placeholder { /* IE 10+ */
+    font-weight: 300;
+    color: #222;
+    text-align: left;
+    font-size: 16px;
+    font-style: normal;
+    text-shadow: none;
+}
+
+::-ms-input-placeholder { /* Edge */
+    font-weight: 300;
+    color: #222;
+    text-align: left;
+    font-size: 16px;
+    font-style: normal;
+    text-shadow: none;
+}
+
+:placeholder-shown { /* Standard one last! */
+    font-weight: 300;
+    color: #222;
+    text-align: left;
+    font-size: 16px;
+    font-style: normal;
+    text-shadow: none;
+}
+
+/* -- MEDIAQ */
+
+@media (max-width: 1100px) {
+    .loginbox.twocolumns {
+        margin: 0 auto;
+        width: 800px;
+        margin-top: 60px;
+    	margin-bottom: 60px;
+    }
+}
+
+@media (max-width: 900px) {
+
+	.loginbox .loginpanel {
+	    border-right: none !important;
+	    border-bottom: none !important;
+	}
+
+	.loginbox.twocolumns .loginpanel {
+	    border-right: none !important;
+        border-bottom: 1px solid #EEE !important;
+	}
+
+    .loginpanel {}
+
+    .loginbox.twocolumns {
+        width: 500px;
+        padding: 30px 20px;
+    }
+
+    .loginbox.twocolumns .loginpanel,
+    .loginbox.twocolumns .signuppanel {
+        width: 100%;
+    }
+
+    .loginbox.twocolumns .loginpanel {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+
+	.loginbox {
+		width: 380px;
+	}
+
+    .loginbox.twocolumns {
+        width: 320px;
+        padding: 30px 20px;
+    }
+
+    .loginbox.twocolumns .loginpanel,
+    .loginbox.twocolumns .signuppanel {
+        width: 100%;
+    }
+
+    .loginbox.twocolumns .loginpanel {
+        margin-bottom: 20px;
+    }
+
+	.loginpanel h2 {
+        width: 220px;
+    }
+
+	.loginbox .subcontent, .loginbox .subcontent.loginsub, .loginbox .subcontent.guestsub {
+        width: 220px;
+    }
+}
+
+@media (max-width: 499px) {
+	.loginbox {
+		width: 100%;
+	}
+
+    .loginbox.twocolumns {
+        width: 100%;
+        padding: 0;
+    }
+
+    .loginbox.twocolumns .loginpanel, .loginbox.twocolumns .signuppanel {
+        width: 100%;
+        padding: 60px 0px;
+    }
+
+    .loginpanel h2 {
+        width: 220px;
+    }
+
+    .loginbox .subcontent, .loginbox .subcontent.loginsub, .loginbox .subcontent.guestsub {
+        width: 220px;
+    }
+}
+
+/* -- ovr */
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:active,
+input:-webkit-autofill:focus {
+    background-color: #FFFFFF !important;
+    color: #555 !important;
+    -webkit-box-shadow: 0 0 0 1000px white inset !important;
+    -webkit-text-fill-color: #555555 !important;
+}
+
+.mform .fdescription.required {
+    color: #333;
+    font-size: 12px;
+    font-style: italic;
+}

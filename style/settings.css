@@ -1,0 +1,74 @@
+/* -- FOOTER */
+
+#page-footer {
+	background-color:[[setting:footer_bg]];
+}
+
+	/* -- social */
+
+.social-icons {
+	background-color:[[setting:social_bg]];	
+}
+
+.social-icon.fa {
+	color:[[setting:social_color]];
+}
+
+	/* -- copyright */
+
+.copyright {
+	background-color:[[setting:copyright_bg]];	
+}
+
+p.copyright-txt {
+	color:[[setting:copyright_color]];	
+}
+
+/* -- PARALLAX */
+
+#page-site-index #parallax-section .parallax-window {
+	min-height:[[setting:parallaxheight]];
+	margin-bottom:[[setting:parallaxmargin]];
+}
+
+/* -- SIDE MENU */
+
+#side-menu nav {
+	background-color:[[setting:sidemenu_bg]];	
+}
+
+/* -- LOGIN PAGE */
+
+body#page-login-index {
+	background: url([[setting:loginpagebg]]) no-repeat center center;
+}
+
+.site-loader {
+    background: url([[pix:theme|default-site-loader]]) center no-repeat #fff;
+}
+
+/* -- SLIDER */
+
+	/* -- slider text */
+
+#slide-info p.slide-title {
+	color:[[setting:slide_title_color]];	
+}
+
+#slide-info p.slide-text {
+	color:[[setting:slide_text_color]];	
+}
+
+	/* -- slider text media bg*/
+
+@media (max-width: 699px) {
+	#slide-info.media-bg {
+		background:[[setting:slide_txt_bg]];	
+	}	
+}
+
+/* -- HEADER */
+
+header.navbar {
+	background:[[setting:header_bg]];		
+}
